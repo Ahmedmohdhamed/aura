@@ -76,7 +76,7 @@ gdjs.Untitled_32sceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseBu
 }if ( gdjs.Untitled_32sceneCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Untitled_32sceneCode.conditionTrue_1 = gdjs.Untitled_32sceneCode.condition1IsTrue_0;
-gdjs.Untitled_32sceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8121628);
+gdjs.Untitled_32sceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8024508);
 }
 }}
 if (gdjs.Untitled_32sceneCode.condition1IsTrue_0.val) {
