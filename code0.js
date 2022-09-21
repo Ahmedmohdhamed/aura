@@ -3,8 +3,6 @@ gdjs.Untitled_32sceneCode.GDportalObjects1= [];
 gdjs.Untitled_32sceneCode.GDportalObjects2= [];
 gdjs.Untitled_32sceneCode.GDbtnObjects1= [];
 gdjs.Untitled_32sceneCode.GDbtnObjects2= [];
-gdjs.Untitled_32sceneCode.GDwalletObjects1= [];
-gdjs.Untitled_32sceneCode.GDwalletObjects2= [];
 gdjs.Untitled_32sceneCode.GDlogoObjects1= [];
 gdjs.Untitled_32sceneCode.GDlogoObjects2= [];
 gdjs.Untitled_32sceneCode.GDstarsObjects1= [];
@@ -61,7 +59,7 @@ gdjs.copyArray(runtimeScene.getObjects("stars"), gdjs.Untitled_32sceneCode.GDsta
     gdjs.Untitled_32sceneCode.GDbtnObjects1[i].setX(gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) / 2);
 }
 }{for(var i = 0, len = gdjs.Untitled_32sceneCode.GDstarsObjects1.length ;i < len;++i) {
-    gdjs.Untitled_32sceneCode.GDstarsObjects1[i].setPosition(gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) / 2,gdjs.evtTools.window.getGameResolutionHeight(runtimeScene) / 2);
+    gdjs.Untitled_32sceneCode.GDstarsObjects1[i].setX(gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) / 2);
 }
 }}
 
@@ -78,7 +76,7 @@ gdjs.Untitled_32sceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseBu
 }if ( gdjs.Untitled_32sceneCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Untitled_32sceneCode.conditionTrue_1 = gdjs.Untitled_32sceneCode.condition1IsTrue_0;
-gdjs.Untitled_32sceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8029444);
+gdjs.Untitled_32sceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8121628);
 }
 }}
 if (gdjs.Untitled_32sceneCode.condition1IsTrue_0.val) {
@@ -142,8 +140,6 @@ gdjs.Untitled_32sceneCode.GDportalObjects1.length = 0;
 gdjs.Untitled_32sceneCode.GDportalObjects2.length = 0;
 gdjs.Untitled_32sceneCode.GDbtnObjects1.length = 0;
 gdjs.Untitled_32sceneCode.GDbtnObjects2.length = 0;
-gdjs.Untitled_32sceneCode.GDwalletObjects1.length = 0;
-gdjs.Untitled_32sceneCode.GDwalletObjects2.length = 0;
 gdjs.Untitled_32sceneCode.GDlogoObjects1.length = 0;
 gdjs.Untitled_32sceneCode.GDlogoObjects2.length = 0;
 gdjs.Untitled_32sceneCode.GDstarsObjects1.length = 0;
