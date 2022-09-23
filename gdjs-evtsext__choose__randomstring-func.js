@@ -11,7 +11,7 @@ gdjs.evtsExt__Choose__RandomString.conditionTrue_0 = {val:false};
 gdjs.evtsExt__Choose__RandomString.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Choose__RandomString.userFunc0x7a71a0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Choose__RandomString.userFunc0x807080 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 //Set a new variable to store the choosed list and convert from string to an structure
 var __ChoosedString = runtimeScene.getVariables().get("__ChoosedString")
@@ -40,7 +40,7 @@ gdjs.evtsExt__Choose__RandomString.eventsList0 = function(runtimeScene, eventsFu
 {
 
 
-gdjs.evtsExt__Choose__RandomString.userFunc0x7a71a0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Choose__RandomString.userFunc0x807080(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
